@@ -5,15 +5,15 @@ import ReactDOM from 'react-dom';
 
 const meInReact =
 	React.createElement('div', { class: 'me' },
-  	React.createElement('h1', {}, "An Awesome Person"),
-  	React.createElement('p', {}, "Who is learning React"),
+  	React.createElement('h1', {}, 'An Awesome Person'),
+  	React.createElement('p', {}, 'Who is learning React'),
     React.createElement('br'),
 		React.createElement('ul', { class: 'me_interests' }
 		[
-			React.createElement('li', {}, "Javascript"),
-			React.createElement('li', {}, "React"),
-			React.createElement('li', {}, "Movies"),
-			React.createElement('li', {}, "Ice Cream")
+			React.createElement('li', {}, 'Javascript'),
+			React.createElement('li', {}, 'React'),
+			React.createElement('li', {}, 'Movies'),
+			React.createElement('li', {}, 'Ice Cream')
 		])
 );
 
