@@ -13,7 +13,7 @@ const meInReact =
 			React.createElement('li', {}, "React"),
 			React.createElement('li', {}, "Movies"),
 			React.createElement('li', {}, "Ice Cream")
-		]);
+		])
 );
 
 // ReactDOM.render(meInReact, document.getElementsByClassName('root'));
